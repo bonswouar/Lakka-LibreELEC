@@ -1,12 +1,10 @@
 # SPDX-License-Identifier: GPL-2.0
 # Copyright (C) 2016-present Team LibreELEC (https://libreelec.tv)
 
-PKG_NAME="libretro-ppsspp"
-PKG_VERSION="caa506bf2a253a99850a4248a1cb5a399f32467a"
-PKG_SHA256="d59b4d044b761a73e744ab71e207e5b3bdbac819ed2201b79ed4455606ac0719"
+# PKG_SHA256="d59b4d044b761a73e744ab71e207e5b3bdbac819ed2201b79ed4455606ac0719"
 PKG_LICENSE="GPLv2"
 PKG_SITE="https://github.com/hrydgard/ppsspp"
-PKG_URL="$DISTRO_SRC/$PKG_NAME-$PKG_VERSION.tar.xz"
+PKG_URL="$DISTRO_SRC/archive/refs/tags/$PKG_NAME-$PKG_VERSION.tar.xz"
 PKG_DEPENDS_TARGET="toolchain SDL2"
 PKG_LONGDESC="A PSP emulator written in C++."
 PKG_TOOLCHAIN="cmake-make"

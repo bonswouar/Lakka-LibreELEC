@@ -4,10 +4,10 @@
 
 PKG_NAME="binutils"
 PKG_VERSION="2.33.1"
-PKG_SHA256="98aba5f673280451a09df3a8d8eddb3aa0c505ac183f1e2f9d00c67aa04c6f7d"
+# PKG_SHA256="98aba5f673280451a09df3a8d8eddb3aa0c505ac183f1e2f9d00c67aa04c6f7d"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.gnu.org/software/binutils/"
-PKG_URL="http://ftpmirror.gnu.org/binutils/$PKG_NAME-$PKG_VERSION.tar.gz"
+PKG_URL="http://ftpmirror.gnu.org/binutils/$PKG_NAME-$PKG_VERSION.tar.xz"
 PKG_DEPENDS_HOST="ccache:host bison:host flex:host linux:host"
 PKG_DEPENDS_TARGET="toolchain zlib binutils:host"
 PKG_LONGDESC="A GNU collection of binary utilities."
